@@ -1,0 +1,37 @@
+{
+  "name": "redocly-configurable-rules-deprecation-sunset-strategy",
+  "version": "1.0.0",
+  "description": "Provides a framework for Deprecation and Sunset strategy for RESTful apis based on RFC recommendations",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyfiel/redocly-configurable-rules-deprecation-strategy.git"
+  },
+  "keywords": [
+    "redocly",
+    "configurable-rules",
+    "linting-rules",
+    "linter",
+    "api",
+    "api-design",
+    "openapi",
+    "swagger",
+    "rest",
+    "deprecation",
+    "sunset",
+    "RFC7231",
+    "RFC8288",
+    "RFC8594",
+    "RFC9651",
+    "RFC9745"
+  ],
+  "author": "Jeremy Fiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyfiel/redocly-configurable-rules-deprecation-strategy/issues"
+  },
+  "homepage": "https://github.com/jeremyfiel/redocly-configurable-rules-deprecation-strategy#readme",
+  "dependencies": {
+    "@redocly/openapi-core": ">=1.0.0-beta.128"
+  }
+}
