@@ -1,10 +1,12 @@
-# `Deprecated` services SHOULD define a standard set of headers to communicate `Deprecation` and `Sunset` information. There should also exist a `Link` header to inform the consumer where the service location has been moved to, if any
+# A framework for Deprecation and Sunset strategy for RESTful apis
 
 Authors:
 
 - `@jeremyfiel` Jeremy Fiel (ADP)
 
 ## What this does and why
+
+`Deprecated` services SHOULD define a standard set of headers to communicate `Deprecation` and `Sunset` information. There should also exist a `Link` header to inform the consumer where the service location has been moved to, if any
 
 There are three parts to a deprecation strategy. Defining _when_ (`deprecation`) the service will be deprecated, the `sunset` date of the service for it to be completely turned off, and a `link` to where a replacement service may exist. We use a number of RFC standards to define these header fields. 
 
